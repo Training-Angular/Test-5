@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript</title>
+</head>
+
+<body>
+    <h1>Nguyễn Quốc Việt</h1>
+    <h2>Cau 2</h2>
+    <form>
+        <label>Celsius </label>
+        <input type="number" id="celsius" />
+        <br>
+        <label>Fahrenheit: </label>
+        <input type="number" id="fahrenheit" />
+        <br>
+        <input type="button" value="C -> F" onclick="(convertTem(1));" />
+        <input type="button" value="F -> C" onclick="(convertTem(2));" />
+    </form>
+    <p>result: <b class="output-2"></b></p>
+    <hr>
+    <h2>Cau 4</h2>
+    <form>
+        <input type="file" id="file1" />
+        <input type="button" value="Check Extension" onclick="checkFileExtension();" />
+    </form>
+    <p>The file extension is: <b class="output-4"></b></p>
+    <hr>
+    <h2>Cau 5</h2>
+    <form>
+        <label>Enter the position to delete: </label>
+        <input type="number" id="input-5" />
+        <input type="button" value="Run" onclick="(removeChar());" />
+    </form>
+    <p>Input: <b class="input-5"></b></p>
+    <p>Output: <b class="output-5"></b></p>
+
+    <script src="moment.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
